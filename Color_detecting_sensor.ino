@@ -4,11 +4,12 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2); // Define LCD address and dimensions
 
 // TCS230 pins connected to Arduino
-const int s0 = 8;
-const int s1 = 9;
-const int s2 = 11;
-const int s3 = 12;
-const int out = 10;
+const int s0 = 4;
+const int s1 = 5;
+const int s2 = 7;
+const int s3 = 6;
+const int out = 8;
+
 
 // Variables
 int red = 0;
